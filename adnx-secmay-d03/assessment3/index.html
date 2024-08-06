@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      #header {
+        height: 100px;
+        width: 100%;
+        background: rgb(65, 65, 65);
+        background: linear-gradient(
+          90deg,
+          rgba(65, 65, 65, 1) 0%,
+          rgba(30, 30, 30, 1) 50%,
+          rgba(11, 11, 11, 1) 100%
+        );
+        position: relative;
+        /* font setting */
+        font-family: Roboto;
+        font-weight: regular;
+        font-size: 20px;
+        color: white;
+      }
+      #header > .container1 {
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10%;
+      }
+      #header > .container1 > .img {
+        height: 30px;
+      }
+      #header > .container2 {
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+      }
+      #header > .container3 {
+        height: 30px;
+        width: 140px;
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        transform: translateY(-50%);
+      }
+      #header > .container3 > .box1 {
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: -20%;
+        left: 0px;
+      }
+      #header > .container3 > .box2 {
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: -20%;
+        right: 0%;
+      }
+      #header > .container3 > .box2 > .button {
+        height: 40px;
+        width: 120px;
+        background-color: #ff64a5;
+        border-radius: 10px;
+        position: absolute;
+      }
+      #header > .container3 > .box2 > .button > .text {
+        position: absolute;
+        top: 50%;
+        margin-left: 12%;
+        transform: translateY(-50%);
+      }
+      #header > .container3 > .box1 > .text {
+        margin-left: 40px;
+      }
+      #header > .container3 > .box1 > .img {
+        position: absolute;
+        top: 0px;
+      }
+      #header > .container3 > .box1 > .button {
+        height: 40px;
+        width: 120px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 10px;
+        position: absolute;
+      }
+      #header > .container3 > .box1 > .button > .img {
+        position: absolute;
+        top: 57%;
+        left: 10px;
+        transform: translateY(-50%);
+      }
+      #section {
+        height: 650px;
+        width: 100%;
+        background: rgb(65, 65, 65);
+        background: linear-gradient(
+          90deg,
+          rgba(65, 65, 65, 1) 0%,
+          rgba(30, 30, 30, 1) 50%,
+          rgba(11, 11, 11, 1) 100%
+        );
+        position: relative;
+        /* font setting */
+        font-family: Roboto;
+        font-weight: regular;
+        font-size: 20px;
+        color: white;
+      }
+      #section > .shape1 {
+        width: 1000px;
+        height: 425px;
+        border: 2px solid white;
+        border-radius: 80px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #section > .img1 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #section > .imgNI {
+        position: absolute;
+        top: 40%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+      }
+      #section > .imgKE {
+        position: absolute;
+        top: 40%;
+        left: 68%;
+        transform: translate(-50%, -50%);
+      }
+      #section > .img2 {
+        position: absolute;
+        top: 38%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container1">
+        <img class="img" src="./assets/logo-nike.svg" alt="" />
+      </div>
+      <div class="container2">
+        <span style="padding-right: 20px">Man</span>
+        <span style="padding-right: 20px">Woman</span>
+        <span style="padding-right: 20px">Kid</span>
+        <span>Explore</span>
+      </div>
+      <div class="container3">
+        <div class="box1">
+          <div class="button">
+            <div class="img">
+              <img height="25px" src="./assets/icon-search.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="button"><div class="text">Shop Now</div></div>
+        </div>
+      </div>
+    </header>
+    <section id="section">
+      <div class="shape1"></div>
+      <div class="img1">
+        <img width="900px" src="./assets/logo-nike-large.svg" alt="" />
+      </div>
+      <div class="imgNI">
+        <img width="300px" src="./assets/NI.svg" alt="" />
+      </div>
+
+      <div class="img2">
+        <img width="700px" src="./assets/shoe.svg" alt="" />
+      </div>
+      <div class="imgKE">
+        <img width="400px" src="./assets/KE.svg" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
+s

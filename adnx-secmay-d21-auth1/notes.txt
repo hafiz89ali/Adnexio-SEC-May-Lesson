@@ -1,0 +1,1 @@
+Class end after contoller -> auth.js (register and login function)

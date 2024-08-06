@@ -1,0 +1,9 @@
+install 'express' -> npm install express
+install postgresql -> npm install pg
+
+Step Auth
+> create router
+1 - Establish connection
+> req health
+> post health
+2 - create database

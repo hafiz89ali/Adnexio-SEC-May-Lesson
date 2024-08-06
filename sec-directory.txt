@@ -1,0 +1,92 @@
+WEEK 0, DAY 0
+
+--------------------------------------------------------------------------
+WEEK 1, 
+
+DAY 1
+TUE, 7 MAY 2024
+ENVIRONMENT SETUP
+
+DAY 2
+
+
+DAY 3
+
+--------------------------------------------------------------------------
+WEEK 2, DAY 4
+
+WEEK 2, DAY 5
+
+WEEK 2, DAY 6
+
+WEEK 3, DAY 7
+
+WEEK 3, DAY 8
+
+WEEK 3, DAY 9
+
+WEEK 4, DAY 10
+
+WEEK 4, DAY 11
+
+WEEK 4, DAY 12
+
+WEEK 5, DAY 13
+SAT, 11 JUN 2024
+
+WEEK 5, DAY 14
+TUE, 12 JUN 2024
+
+WEEK 5, DAY 15
+WED, 15 JUN 2024
+
+
+AIDILADHA BREAK
+
+--------------------------------------------------------------------------
+WEEK 6
+
+DAY 16 [completed]
+WED, 25 JUN 2024
+BACKEND APPLICATION
+> NODEJS
+> CONTROLLER
+> ECMA SCRIPT MODULE
+
+DAY 17 [completed]
+WED, 26 JUN 2024
+POSTGRESQL - INSTALLATION
+
+DAY 18
+SAT, 29 JUN 2024
+POSTGRESQL 1
+
+--------------------------------------------------------------------------
+WEEK 7
+
+DAY 19
+TUE, 02 JUL 2024
+POSTGRESQL 2
+
+DAY 20 [completed]
+WED, 03 JUL 2024
+POSTGRESQL IN NODEJS
+
+DAY 21
+SAT, 06 JULY 2024
+AUTHENTICATION AND AUTHORIZATION 1
+
+--------------------------------------------------------------------------
+WEEK 8
+
+DAY 22
+TUE, 09 JULY 2024
+AUTHENTICATION AND AUTHORIZATION 2
+
+DAY 23
+WED, 10 JULY 2024
+-
+
+DAY 24
+SAT, 13 JULY 2024
+CONSULTATION / PROJECT BRIEFING

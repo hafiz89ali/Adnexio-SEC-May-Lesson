@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Internal CSS -->
+    <style>
+      /* THIS IS CSS */
+
+      /* Class Selector */
+      .box {
+        background-color: blue;
+      }
+
+      /* ID Selector */
+      #box {
+        background-color: green;
+      }
+
+      /* Element Selector */
+      h2 {
+        background-color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is a comment -->
+    <!-- inline css -->
+    <div style="background-color: red">
+      <h1>1</h1>
+    </div>
+    <!-- Internal CSS, written in the head -->
+    <div class="box">
+      <h1>2 class selector</h1>
+    </div>
+    <div id="box">
+      <h1>3 id selector</h1>
+    </div>
+    <div>
+      <h2>hello</h2>
+      <h2>world</h2>
+    </div>
+    <!-- Internal vs Inlie -->
+    <div class="box" style="background-color: red">
+      <h1>Internal vs Inline, blue or red</h1>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+Class end after contoller -> auth.js (register and login function)
+
+40:48 - That all what we need in authorization
+Server produce token - bagi pada user
+User guna balik token untuk further request
+ 

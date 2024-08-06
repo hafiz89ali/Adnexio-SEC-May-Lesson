@@ -1,0 +1,47 @@
+NOTE MAY SEC
+DAY 20
+WEEK 7, WED, 3 JULY 2024
+
+CONTENTS
+1️⃣ Connecting NodeJS with Postgresql
+
+Q&A about Boolean
+
+NodeJS application -> Connection pool (passport) - run DDL / DML (CRUD)
+
+On connection pool, we establish connection, where;
+- localhost/127.0.0.1
+- port: 5432 (this port is very specific to Postgresql)
+- username
+- password
+
+Data Definition Language (DDL)
+- create table
+- define column
+
+Data Manipulation Language (DDL) or CRUD
+- create
+- read
+- update
+- delete
+
+
+Express
+Health Controller
+> Get Health
+> Post Health
+> Middleware - untuk baca Json
+DATABASE
+Establish database conection
+> create Pool - to connect with database
+> database > connection.js 
+> database > init.js 
+Data Definition Language (DDL)
+> models > table 1
+> models > table 2
+Data Manipulation Language (DML)
+
+
+
+Sidenote - download node package (express, pg,...) @npm
+documentation npm Postgres

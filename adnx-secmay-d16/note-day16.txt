@@ -1,0 +1,70 @@
+NOTE MAY SEC
+DAY 16
+WEEK 6, TUE, 25 JUNE 2024
+
+CONTENTS
+1️⃣ CommonJs -> ECMAScript
+2️⃣ Controller in MVC architecture 
+
+📝 Side note: What is NodeJs? 
+- Node.js is a cross-platform, open-source JavaScript RUNTIME ENVIRONMENT that can run on Windows, Linux, Unix, macOS, and more.
+- Node.js runs on the V8 JavaScript engine, and executes JavaScript code OUTSIDE A WEB BROWSER.
+- Node.js lets developers use JavaScript to write command line tools and for server-side scripting.
+
+NodeJs Module
+- Core Module
+- Local Module
+- External Module
+
+-------------------------------------------------------------
+
+1️⃣ CommonJs -> ECMAScript
+
+To write a module, there are:
+CommonJs and ModuleJs (ECMA)
+
+CommonJs
+- 'require' function used to import modules.
+- 'module.exports' is used to export functions, objects, or variables from a module.
+
+ECMAScript Module (ESM) / MJS
+- Standardized way to organize, encapsulate, and share JavaScript code.
+- 'import' keyword to import functionality from other modules
+- 'export' keyword to export functions, objects, or variables from modules.
+
+By default, nodejs run by using COMMONJS, to use ECMA here are steps to follow:
+1 - Change extension which is very troublesome.
+2 - In 'package.json', add - "type":"module"
+
+-------------------------------------------------------------
+
+2️⃣ Controller in MVC architecture
+
+Controller
+- Controller is a part of MVC architecture
+📝 Side note: MVC stand for Model View and Controller.
+Model - Model is database
+View - View is UI/HTML
+Controller - Controller is logic between Model and View
+
+Image portraying MVC: https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png
+
+Hands-on - Insomnia setting
+> Create new collection
+> Add new 'http request'
+> Select method - get/post/...
+> Type address (local host)
+
+📝 Side note - express
+- Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js
+- Released as free and open-source software under the MIT License. 
+- It is designed for building web applications and APIs. 
+- It has been called the de facto standard server framework for Node.js.
+
+📝 Side - 'req' and 'res'
+'req' and 'res' is objects to handle http request and response in the web application.
+In the course, 'req' and 'res' are being handle by express.
+
+📝 JSON - JavaScript Object Notation
+
+📝 Regex - Regular expression
