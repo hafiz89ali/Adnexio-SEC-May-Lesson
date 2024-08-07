@@ -1,0 +1,32 @@
+/* NavigationMenu.css */
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 3px solid #707070;
+}
+
+nav .logo {
+  margin-right: 100px;
+}
+
+nav .logo img {
+  height: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}

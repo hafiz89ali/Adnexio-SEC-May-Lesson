@@ -11,39 +11,43 @@ const headerStyle = {
 
 function Header() {
   const navigate = useNavigate();
-  function navigateToHome() {
-    navigate("/");
+
+  function navigateTo(path) {
+    navigate(path);
   }
-  function navigateToFormA() {
-    navigate("/form-a");
-  }
-  function navigateToFormB() {
-    navigate("/form-b");
-  }
-  function navigateToFormC() {
-    navigate("/form-c");
-  }
-  function navigateToFormD() {
-    navigate("/form-d");
-  }
+
   return (
     <header style={headerStyle}>
-      <h1>React Form</h1>
-      <button onClick={navigateToHome} style={{ margin: "10px" }}>
-        Back to Home
-      </button>
-      <button onClick={navigateToFormA} style={{ margin: "10px" }}>
-        Form A
-      </button>
-      <button onClick={navigateToFormB} style={{ margin: "10px" }}>
-        Form B
-      </button>
-      <button onClick={navigateToFormC} style={{ margin: "10px" }}>
-        Form C
-      </button>
-      <button onClick={navigateToFormD} style={{ margin: "10px" }}>
-        Form D
-      </button>
+      <div>
+        <h1>React Form</h1>
+        <button onClick={() => navigateTo("/")} style={{ margin: "10px" }}>
+          Home
+        </button>
+        <button
+          onClick={() => navigateTo("/form-a")}
+          style={{ margin: "10px" }}
+        >
+          Form A
+        </button>
+        <button
+          onClick={() => navigateTo("/form-b")}
+          style={{ margin: "10px" }}
+        >
+          Form B
+        </button>
+        <button
+          onClick={() => navigateTo("/form-c")}
+          style={{ margin: "10px" }}
+        >
+          Form C
+        </button>
+        <button
+          onClick={() => navigateTo("/form-d")}
+          style={{ margin: "10px" }}
+        >
+          Form D
+        </button>
+      </div>
     </header>
   );
 }

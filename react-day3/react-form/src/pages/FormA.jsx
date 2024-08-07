@@ -1,6 +1,10 @@
 import Header from "../components/Header";
+import { useState } from "react";
 
 function FormA() {
+  // email state
+  const [email, setEmail] = useState("");
+
   return (
     <div>
       <Header />
