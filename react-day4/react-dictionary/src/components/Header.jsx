@@ -4,7 +4,7 @@ import "../styling/NavigationStyling.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="main">
       <nav>
         <div className="logo">
           <img src={logo} alt="Logo" />
