@@ -5,13 +5,17 @@
   box-sizing: border-box;
 }
 
+li {
+  cursor: pointer;
+}
+
 .main {
   border-bottom: 3px solid #707070;
 }
 
 nav {
   display: flex;
-  max-width: 1200px;
+  max-width: 1000px;
   height: auto;
   margin: 0 auto;
   flex-direction: row;

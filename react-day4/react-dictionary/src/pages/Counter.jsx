@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Header from "../components/Header";
+import "../styling/CounterStyling.css";
 
 function Counter() {
   // For the best practice, state always use constant to store the value of the state
@@ -33,18 +35,23 @@ function Counter() {
 
   return (
     <div>
-      <h1>Counter</h1>
-      <hr />
-      <div>
-        <p>Counter</p>
-        <h2>{counter}</h2>
-        <button onClick={decrement}>-</button>
-        <button onClick={increment}>+</button>
-        <div>
-          <label for="file">Downloading progress</label>
-          <progress id="file" value={counter} max="100">
-            {counter}%
-          </progress>
+      <Header />
+      <div className="body">
+        <div className="hero">
+          <h1>Counter</h1>
+        </div>
+        <div className="counter">
+          <div className="counterButton">
+            <h2>{counter}</h2>
+            <button onClick={decrement}>-</button>
+            <button onClick={increment}>+</button>
+          </div>
+          <div>
+            <label for="file">Progress</label>
+            <progress id="file" value={counter} max="100">
+              {counter}%
+            </progress>
+          </div>
         </div>
       </div>
     </div>
