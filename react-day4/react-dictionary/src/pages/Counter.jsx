@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
-import "../styling/CounterStyling.css";
+import "../index.css";
 
 function Counter() {
   // For the best practice, state always use constant to store the value of the state
@@ -40,15 +40,22 @@ function Counter() {
         <div className="hero">
           <h1>Counter</h1>
         </div>
-        <div className="counter">
+        <div className="counterContainer">
+          <h2>{counter}</h2>
           <div className="counterButton">
-            <h2>{counter}</h2>
-            <button onClick={decrement}>-</button>
+            <button style={{ margin: "0px" }} onClick={decrement}>
+              -
+            </button>
             <button onClick={increment}>+</button>
           </div>
-          <div>
+          <div className="progressElements">
             <label for="file">Progress</label>
-            <progress id="file" value={counter} max="100">
+            <progress
+              style={{ margin: "0px" }}
+              id="file"
+              value={counter}
+              max="100"
+            >
               {counter}%
             </progress>
           </div>

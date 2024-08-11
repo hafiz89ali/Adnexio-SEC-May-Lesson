@@ -1,7 +1,11 @@
-import "../styling/HomeStyling.css";
+import { useNavigate } from "react-router-dom";
+import "../index.css";
 import Header from "../components/Header";
 
 function Home() {
+  const navigate = useNavigate();
+  const navigateToCounter = () => navigate("/counter");
+  const navigateToDictionary = () => navigate("/dictionary");
   return (
     <div>
       <Header />
@@ -21,7 +25,7 @@ function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <button>GO TO MINI PROJECT</button>
+          <button onClick={navigateToCounter}>GO TO MINI PROJECT</button>
         </div>
         <div className="section">
           <h2>DICTIONARY</h2>
@@ -34,7 +38,7 @@ function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <button>GO TO MINI PROJECT</button>
+          <button onClick={navigateToDictionary}>GO TO MINI PROJECT</button>
         </div>
       </div>
     </div>
