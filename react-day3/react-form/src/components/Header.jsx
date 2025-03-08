@@ -1,14 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
-const headerStyle = {
-  backgroundColor: "gray",
-  color: "white",
-  padding: "10px",
-  display: "flex",
-  justifyContent: "space-between",
-  alignItems: "center",
-};
-
+import logo from "../assets/logo.svg";
 function Header() {
   const navigate = useNavigate();
 
@@ -17,9 +8,12 @@ function Header() {
   }
 
   return (
-    <header style={headerStyle}>
+    <header>
+      <div className="logo-container">
+        <img className="logo-img" src={logo} alt="Logo" />
+        <h3>MAY 2024</h3>
+      </div>
       <div>
-        <h1>React Form</h1>
         <button onClick={() => navigateTo("/")} style={{ margin: "10px" }}>
           Home
         </button>
